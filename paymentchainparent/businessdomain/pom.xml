@@ -39,6 +39,8 @@
            
     <dependencies>
         
+        
+        
         <!-- <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -49,7 +51,12 @@
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>-->
         
-        <!-- manage all realate to links on REST resources--> 
+        <!-- manage all realate to links on REST resources-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-hateoas</artifactId>     
